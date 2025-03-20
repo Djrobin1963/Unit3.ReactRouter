@@ -11,9 +11,9 @@ export default function App() {
         <h1></h1>
 
         <div id="navbar">
-          <Link>Blue</Link>
-          <Link>Red</Link>
-          <Link>Home</Link>
+          <Link to="/blue">Blue</Link>
+          <Link to="/red">Red</Link>
+          <Link to="/">Home</Link>
         </div>
 
         <div id="main-section">
